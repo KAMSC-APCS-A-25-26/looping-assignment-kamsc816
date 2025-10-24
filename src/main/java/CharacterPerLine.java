@@ -6,7 +6,7 @@ public class CharacterPerLine {
 
         // TODO: Step 2 - Print each character on a separate line
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a word: ");
+        System.out.print("Enter a word: ");
         String word = sc.nextLine();
         for(int i=0; i<word.length(); i++){
             char character = word.charAt(i);
