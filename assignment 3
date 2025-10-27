@@ -10,7 +10,7 @@ public class Main {
                 System.out.print(j);
                 
                 // Print a space except for the very last number on the last line
-                if (!(i == num && j == num)) {
+                if (j<i) {
                     System.out.print(" ");
                 }
             }
